@@ -46,3 +46,127 @@ print(string)
  string = nome_da_variavel
  string [4]
  'nome' 
+############################
+dicionario são listas associadas a chaves e valores
+dic = {'valor1': 1, 'valor2' : 2}
+type(dic)
+dict
+dic{'valor1'}
+1
+associação de valores não tem ordem obrigatória
+dic aceita qualquer tipo de dados
+
+tupla também é uma lista mas ao inves de conchetes usa ()
+
+qual diferença entre tuplas e listas? elas tem mesma notação, guardam mesmo tipo de dados
+tupla é imutável
+#################################################
+Boleanos 
+tipos de dados associados a expressões de lógicas 
+TRUE / FALSE
+and / or 
+if elif else
+== != >=
+= definição de variavel
+##########################################################
+RESUMO
+LISTA = []
+DIC = {'VALOR': 1} acessados em qq ordem
+TUPL = () listas imutaveis
+=========================================================
+for 
+faz interações criando um objeto que funciona interando sob outro objeto 
+cria item que passa sobre todos os objetos criados e pode ser interado
+
+for item in seq:
+print(item)
+
+for i in range(0, 100): 
+print(i)
+
+seq = list(range(0, 100))
+print(seq)
+vai de zero até 99
+
+while i > 5 :
+print('i value: {}' .format(i))                    # passa o nome da variavel em .format(dentro do parentese)
+i ++
+i = i +1
+
+var = 'rodrigo'
+'nome_da_variavel = {}' .format(var)
+
+identação for while para saber qual pedaço do código executar
+
+out.append(item**2)     #adiciona aquilo #função do objeto lista
+ou
+[item**2 for i in x]
+###########################################################################
+funções ... pode ou não retornar valores
+def minha_função(param):
+     x = param **2
+     return x 
+     
+     qual a vantagem de definir um return?? associar variaveis a esse valor 
+   quando voce cria uma variavel e ela só existe dentro do contexto função, não é acessada de fora, só exite quando a função esta sendo executada
+
+x = 2
+y = minha_função(x)
+
+result y = 4
+############################################################################
+#Expressão em Lambda
+lambda var: var*2
+
+#'MAP e FILTER'
+#map é uma função que calcula todos os valores de um interavel colocando eles como parametros de uma função
+#map passa a função e o interável
+seq = [1,2,3,4,5]
+map(vezes2,seq)
+
+def vezes2(var):
+    return var*2
+    
+#converte map em lista
+lista(map(vezes2, seq))
+
+#oou faz com lambda sem precisar criar função
+list(map(lambda var: var*2,seq))
+
+#filter é uma função que nos permite filtrar elementos de uma lista ou interavel, dado que a condição de uma função seja verdadeira
+#ou seja, testa valor por valor e só retorna se eles forem verdadeiros
+
+list(filter(lambda item: item%2 == 0,seq))
+
+#neste exemplo pega todos os elementos de seq (cada item da seq) e verifica se são pares(diviseis por 2 e sobra zero), e transforma isso em uma lista. map permite que criemos uma função sem defini-la
+##########################################################################################
+objetos são instancias de uma classe 
+
+funções que vivem dentro de uma classe, são chamadas de métodos de uma classe 
+metodos são funções
+quando você tab o notebook te mostra todos os metodos possíveis daquela classe
+metodo assim como classe para chamar você tem que colocar parentese 
+exemplos
+st.split()
+st.upper()
+tweet.split('#')[1]
+não só objetos da classe string tem metodos próprios 
+por exemplo
+list.append()
+list.pop() retira o ultimo elemento
+consultar metodos usando . e usando tab
+
+operador in 
+checa de alguma variavel está contida na lista
+operador de listas
+d.keys()
+
+
+
+
+
+
+
+
+
+
