@@ -51,7 +51,7 @@ dicionario são listas associadas a chaves e valores
 dic = {'valor1': 1, 'valor2' : 2}
 type(dic)
 dict
-dic{'valor1'}
+dic['valor1']
 1
 associação de valores não tem ordem obrigatória
 dic aceita qualquer tipo de dados
